@@ -1,0 +1,96 @@
+body {
+    font-family: Georgia, sans-serif;
+    text-align: center;
+    padding: 10px;
+    background-color: #f0f0f0;
+    color: #333;
+}
+
+#game {
+    margin: auto;
+    width: 500px;
+}
+
+input {
+    margin-top: 10px;
+    size: 14pt;
+}
+
+#scrambled-word {
+    padding-top: 40px;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+
+button {
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    margin-top: 15px;
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 10px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+#hint {
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    margin-top: 10px;
+    background-color: dodgerblue;
+    color: white;
+    border: none;
+    padding: 10px 10px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+#hint:hover {
+    background-color: #1e71ff;
+}
+
+#new-word {
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    margin-top: 10px;
+    background-color: crimson;
+    color: white;
+    border: none;
+    padding: 10px 10px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+#new-word:hover {
+    background-color: #cd134f;
+}
+
+#give-up {
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    margin-top: 10px;
+    background-color: #9999ff;
+    color: white;
+    border: none;
+    padding: 10px 10px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+#give-up:hover {
+    background-color: mediumpurple;
+}
+
+#score {
+    font-family: Arial, sans-serif;
+    font-size: 20px;
+    padding: 20px;
+    font-weight: bold;
+    color: darkblue;
+}
